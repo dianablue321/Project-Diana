@@ -1,0 +1,20 @@
+]633;E;{     if ! command -v nginx &> /dev/null\x3b     then         echo "$(date) - Nginx is not installed. Installing..."\x3b         sudo apt update\x3b         sudo apt install -y nginx\x3b         echo "$(date) - Nginx installed successfully."\x3b     else         echo "$(date) - Nginx is already installed."\x3b     fi\x3b } >> "$LOGFILE" 2>&1;7e1fcf31-7831-44ee-ac2c-308ae32061a2]633;CTue, Apr  1, 2025  8:07:59 AM - Nginx is not installed. Installing...
+bash: sudo: command not found
+bash: sudo: command not found
+Tue, Apr  1, 2025  8:07:59 AM - Nginx installed successfully.
+]633;E;{     if ! command -v nginx &> /dev/null\x3b     then         echo "$(date) - Nginx is not installed. Installing..."\x3b         apt update\x3b         apt install -y nginx\x3b         echo "$(date) - Nginx installed successfully."\x3b     else         echo "$(date) - Nginx is already installed."\x3b     fi\x3b } >> "$LOGFILE" 2>&1;7e1fcf31-7831-44ee-ac2c-308ae32061a2]633;CTue, Apr  1, 2025  8:09:27 AM - Nginx is not installed. Installing...
+bash: apt: command not found
+bash: apt: command not found
+Tue, Apr  1, 2025  8:09:27 AM - Nginx installed successfully.
+]633;E;{     if ! command -v nginx &> /dev/null\x3b     then         echo "$(date) - Nginx is not installed. Installing..."\x3b         apt update\x3b         apt install -y nginx\x3b         echo "$(date) - Nginx installed successfully."\x3b     else         echo "$(date) - Nginx is already installed."\x3b     fi\x3b } >> "$LOGFILE" 2>&1;7e1fcf31-7831-44ee-ac2c-308ae32061a2]633;CTue, Apr  1, 2025  8:09:38 AM - Nginx is not installed. Installing...
+bash: apt: command not found
+bash: apt: command not found
+Tue, Apr  1, 2025  8:09:39 AM - Nginx installed successfully.
+]633;E;{     if ! command -v nginx &> /dev/null\x3b     then         echo "$(date) - Nginx is not installed. Installing..."\x3b         su apt update\x3b         su apt install -y nginx\x3b         echo "$(date) - Nginx installed successfully."\x3b     else         echo "$(date) - Nginx is already installed."\x3b     fi\x3b } >> "$LOGFILE" 2>&1;7e1fcf31-7831-44ee-ac2c-308ae32061a2]633;CTue, Apr  1, 2025  8:12:57 AM - Nginx is not installed. Installing...
+bash: su: command not found
+bash: su: command not found
+Tue, Apr  1, 2025  8:12:57 AM - Nginx installed successfully.
+]633;E;{     if ! command -v nginx &> /dev/null\x3b     then         echo "$(date) - Nginx is not installed. Installing..."\x3b         sudo apt update\x3b         sudo apt install -y nginx\x3b         echo "$(date) - Nginx installed successfully."\x3b     else         echo "$(date) - Nginx is already installed."\x3b     fi\x3b } >> "$LOGFILE" 2>&1;7e1fcf31-7831-44ee-ac2c-308ae32061a2]633;CTue, Apr  1, 2025  8:13:32 AM - Nginx is not installed. Installing...
+bash: sudo: command not found
+bash: sudo: command not found
+Tue, Apr  1, 2025  8:13:32 AM - Nginx installed successfully.
